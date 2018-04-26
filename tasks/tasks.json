@@ -1,0 +1,32 @@
+[
+    {
+      "description": "Story Kickoff"
+    },
+    {
+      "description": "Create pull request: **PLACEHOLDER**"
+    },
+    {
+      "description": "QA signoff"
+    },
+    {
+      "description": "Run automated tests"
+    },
+    {
+      "description": "Demo to product owner"
+    },
+    {
+      "description": "SCR and squirrel pull request (Code)"
+    },
+    {
+      "description": "SCR and squirrel pull request (SQL)"
+    },
+    {
+      "description": "Assign GitHub milestone and Pivotal release tag"
+    },
+    {
+      "description": "Label pull request with applications to deploy, team name, issue type, and release type"
+    },
+    {
+      "description": "Merge"
+    }
+  ]
