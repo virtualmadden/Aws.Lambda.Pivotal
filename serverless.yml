@@ -1,0 +1,18 @@
+service: serverless-pivotal-lambda
+
+provider:
+  name: aws
+  stage: dev
+  region: us-west-2
+  runtime: nodejs8.10
+package:
+  individually: true
+  exclude:
+    - ./**
+functions:
+  create:
+    handler: handlers/tasker.handler
+    package:
+      include:
+        - handlers/tasker.js
+        - tasks/tasks.json
